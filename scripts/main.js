@@ -2,7 +2,7 @@
   'use strict';
 
   var spots = null,
-    chattanoogaCoords = [35.022388, -85.323257],
+    chattanoogaCoords = [45.8128451, 15.9774949],
     grayMarker = L.AwesomeMarkers.icon({
       prefix: 'fa',
       icon: 'user',
@@ -21,7 +21,7 @@
     map = L.map('map');
 
   map.on('load', function() {
-    $.getJSON('https://rawgit.com/schlos/chattanooga-bike-parking-locator/master/zagreb/bicycle-parking-locations-in-the-city-of-zagreb.json', function(data) {
+    $.getJSON('https://zagreb.open.hr/bike/bicycle-parking-locations-in-the-city-of-chattanooga.json', function(data) {
       var points = [{
         type: 'FeatureCollection',
         features: $.map(data, function(v) {
@@ -53,7 +53,7 @@
     });
   });
 
-  map.setView(chattanoogaCoords, 190);
+  map.setView(chattanoogaCoords, 19);
 
   var centerMarker = L.marker(chattanoogaCoords, {icon: grayMarker});
 
