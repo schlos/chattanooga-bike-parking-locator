@@ -21,7 +21,7 @@
     map = L.map('map');
 
   map.on('load', function() {
-    $.getJSON('https://data.chattlibrary.org/resource/bicycle-parking-locations-in-the-city-of-chattanooga.json', function(data) {
+    $.getJSON('http://zagreb.open.hr/bike/bicycle-parking-locations-in-the-city-of-chattanooga.json', function(data) {
       var points = [{
         type: 'FeatureCollection',
         features: $.map(data, function(v) {
