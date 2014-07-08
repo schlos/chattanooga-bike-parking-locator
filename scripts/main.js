@@ -21,7 +21,7 @@
     map = L.map('map');
 
   map.on('load', function() {
-    $.getJSON('http://zagreb.open.hr/bike/bicycle-parking-locations-in-the-city-of-chattanooga.json', function(data) {
+    $.getJSON('https://raw.githubusercontent.com/schlos/chattanooga-bike-parking-locator/master/zagreb/bicycle-parking-locations-in-the-city-of-zagreb.json', function(data) {
       var points = [{
         type: 'FeatureCollection',
         features: $.map(data, function(v) {
