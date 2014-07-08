@@ -1,0 +1,34 @@
+[ {
+  "description" : "20 mjesta: obrnuti U lukovi",
+  "name" : "Gajeva 12 (blizu Tesline)",
+  "capacity" : "20.0",
+  "location_1" : {
+    "needs_recoding" : false,
+    "longitude" : "45.8107882",
+    "latitude" : "15.97641"
+  },
+  "type" : "klamerice"
+}
+, {
+  "description" : "30 mjesta: 2 spirale",
+  "name" : "Marticeva 69, garaza",
+  "capacity" : "30.0",
+  "location_1" : {
+    "needs_recoding" : false,
+    "longitude" : "45.8131447",
+    "latitude" : "15.9974523"
+  },
+  "type" : "spirale"
+}
+, {
+  "description" : "10 mjesta: obrnuti U lukovi",
+  "name" : "Tehnicki muzej, Savska 31",
+  "capacity" : "10.0",
+  "location_1" : {
+    "needs_recoding" : false,
+    "longitude" : "45.803586",
+    "latitude" : "15.96509"
+  },
+  "type" : "klamerice"
+}
+ ]
